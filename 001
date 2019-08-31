@@ -1,0 +1,25 @@
+function myBiodata(biodata){
+  let biodataObj = {
+    "name": 'Candra Budi Utomo',
+    "address": 'Jl. Kalijajar RT / RW 8, Bintoro, Demak',
+    "hobbies": [
+      'Browsing', 'Listening music', 'Explore skill' 
+    ],
+    "is_married": false,
+    "school": {
+      "highSchool": 'SMK Negeri 7 Semarang',
+      "university": ' '
+    },
+    "skill": [
+      {
+        "Design": "75 %",
+        "Troubleshoot Personal Computer": "90 %",
+        "PCB Design": "80 %",
+        "Operate Microsoft Office": "85 %",
+      }
+    ]
+  }
+
+  return biodataObj
+}
+console.log(myBiodata('Candra Budi Utomo'));
